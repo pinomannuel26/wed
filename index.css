@@ -1,0 +1,95 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	background: url(pictures/ini2.JPG);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+#container
+{
+	width: 80%;
+	margin: 0px auto;
+	box-sizing: border-box;
+
+}
+header 
+{
+	height: 250px;
+	width: 100%;
+}
+nav ul li
+{
+	float: left;
+	color: white;
+	line-height: 10px;
+	margin: 20px;
+	
+}
+ul li a
+{
+	text-decoration: none; /*	Quitar raya del hipervinculo*/
+}
+a
+{
+	color:  white;
+	font-size: 20px;
+}
+nav
+{
+  
+  height: 60px;
+  background-color: rgba(0,0,0,.5);
+  padding-left: 299px;
+}
+.divider
+{
+	clear: both;
+}
+#content
+{
+	float: right;
+	width: 70%;
+	min-height: 400px;
+
+	
+}
+.art
+{
+	line-height: 30px;
+	color:  white;
+	text-align: justify;
+	background-color: rgba(0,0,0,.5);;
+	padding-top: 5px;
+
+}
+p{
+	padding-top: 15px;
+	margin:  0;
+	padding:  20 px 0;
+	font-size: 120%;
+	color: white;
+}
+
+aside
+{
+	background-color: rgba(0,0,0,.5);
+	text-align: center;
+	float: left;
+	width: 30%;
+	line-height:  500%;
+	min-height: 435px;
+	color: white;
+	padding-top: 5px;
+}
+footer
+{
+	line-height: 50px;
+	text-align: right;
+	color: white;
+	
+}
